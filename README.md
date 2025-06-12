@@ -1,52 +1,20 @@
 # network
 
-#### 介绍
-Harmony OS network 鸿蒙网络库
+#### 介绍 [English](README.en.md)
+Harmony OS map 鸿蒙地图库
 
 #### 软件架构
 
-基于系统网络请求库，http，websocket 封装。
+基于系统地图库的封装。
 
 #### 安装教程
 
-`ohpm install @free/network`
+`ohpm install @free/map`
 
 #### 使用说明
 
 1、初始化
 ```
-/**
- * GET请求
- */
-Http.get("");
-/**
- * POST请求
- */
-Http.post("");
-/**
- * 下载 GET请求
- */
-Http.download("");
-/**
- * 上传图片 POST请求
- */
-Http.upImage("",{image:""});
-/**
- * 上传多张图片 POST请求
- */
-Http.upImages("",[{image:""}]);
-/**
- * request请求 默认POST
- */
-Http.request("");
-/**
- * 多个requests异步请求 默认POST
- */
-Http.requests({url:""});
-/**
- * 多个requests同步请求 默认POST
- */
-Http.requestsAsync({url:""});
 ```
 
 #### 参与贡献

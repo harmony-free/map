@@ -1,22 +1,20 @@
 # network
 
-#### Description
-Harmony OS network 鸿蒙网络库
+#### Description [中文](README.md)
+Harmony OS map
 
 #### Software Architecture
-Software architecture description
+Based on the encapsulation of the system map library.
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+`ohpm install @free/map`
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1、Initialization
+```
+```
 
 #### Contribution
 
